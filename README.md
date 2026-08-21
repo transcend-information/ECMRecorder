@@ -102,6 +102,7 @@ ECM100REC is a Windows-focused camera recording tool with the following core cap
 - Requires at least one camera whose device name contains `ECM100`.
 - Supports resolution switching.
 - Displays HUD status, FPS, and current output file name.
+- The preview crosshair can be toggled on and off from the UI.
 
 ### 2. Recording and timestamp overlay
 
@@ -109,12 +110,17 @@ ECM100REC is a Windows-focused camera recording tool with the following core cap
 - Supports continuous segmented recording.
 - Can overlay timestamps on recorded frames.
 - On Windows, the default codec choices are `h264_qsv`, `libx264`, and `hevc_qsv`.
+- Recording now warns when the target storage space is getting low, and automatically stops when the storage threshold is reached.
+- Low-space warning threshold, hard-stop threshold, and disk check interval are configurable in `config.ini`.
+- Manual stop actions now require confirmation before ending an active recording.
 
 ### 3. Recording continuity and recovery
 
 - Maintains segmented recording flow over long sessions.
 - Includes camera disconnect handling and reconnection flow.
 - Supports safe stop behavior when reconnection is skipped.
+- Status messages use stronger severity styling so warnings and errors are easier to notice.
+- After camera reconnect or preview recovery, the UI shows clearer stop/reconnect status text.
 
 ### 4. SQLite activity logging
 
