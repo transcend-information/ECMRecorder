@@ -1,18 +1,26 @@
-# ECM100REC Retail README
+# ECMREC Retail README
 
 [English](README.md) | [繁體中文](README.zh-TW.md)
 
-本文件為 ECM100REC 的純功能介紹版本。
+ECMREC 是一套以 Windows 為主的相機應用程式，提供即時預覽、快照、連續分段 MP4 錄影、遠端控制、相機斷線復原及本機事件記錄功能。預覽與錄影功能必須搭配相容的 Transcend ECM100 相機使用。
 
 <a id="toc"></a>
 ## 目錄
 
+- [相容性](#compatibility)
 - [硬體需求](#hardware-requirements)
 - [EXE 執行必備檔案](#exe-runtime-required-files)
 - [產品綁定需求](#product-binding-requirement)
 - [產品概要](#overview)
 - [主要功能介紹](#features)
 - [產品定位](#positioning)
+
+<a id="compatibility"></a>
+## 相容性
+
+- Transcend ECM100（必須）
+
+[回到目錄](#toc)
 
 <a id="hardware-requirements"></a>
 ## 硬體需求
@@ -21,16 +29,12 @@
 
 - Windows 10/11 x64
 
-2. **必要相機裝置**
-
-- Transcend ECM100（必須）
-
-3. **CPU 建議規格**
+2. **CPU 建議規格**
 
 - 建議至少 4 核心。
 - 8 核心 / 16 執行緒可穩定執行本軟體。
 
-4. **RAM 建議規格**
+3. **RAM 建議規格**
 
 - 建議至少 16 GB RAM。
 

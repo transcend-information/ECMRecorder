@@ -1,18 +1,26 @@
-# ECM100REC Retail README
+# ECMREC Retail README
 
 [English](README.md) | [繁體中文](README.zh-TW.md)
 
-This document is a feature-only introduction for ECM100REC.
+ECMREC is a Windows-focused camera application for live preview, snapshots, continuous segmented MP4 recording, remote control, camera-disconnect recovery, and local event logging. Preview and recording require a compatible Transcend ECM100 camera.
 
 <a id="toc"></a>
 ## Contents
 
+- [Compatibility](#compatibility)
 - [Hardware Requirements](#hardware-requirements)
 - [EXE Runtime Required Files](#exe-runtime-required-files)
 - [Product Binding Requirement](#product-binding-requirement)
 - [Overview](#overview)
 - [Main Features](#features)
 - [Product Positioning](#positioning)
+
+<a id="compatibility"></a>
+## Compatibility
+
+- Transcend ECM100 (mandatory)
+
+[Back to Contents](#toc)
 
 <a id="hardware-requirements"></a>
 ## Hardware Requirements
@@ -21,16 +29,12 @@ This document is a feature-only introduction for ECM100REC.
 
 - Windows 10/11 x64
 
-2. **Required Camera Device**
-
-- Transcend ECM100 (mandatory)
-
-3. **CPU Recommendation**
+2. **CPU Recommendation**
 
 - At least 4 CPU cores is recommended.
 - 8 cores / 16 threads can run this application stably.
 
-4. **RAM Recommendation**
+3. **RAM Recommendation**
 
 - At least 16 GB RAM is recommended.
 
