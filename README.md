@@ -2,7 +2,7 @@
 
 [English](README.md) | [繁體中文](README.zh-TW.md)
 
-ECMREC is a Windows-focused camera application for live preview, snapshots, continuous segmented MP4 recording, remote control, camera-disconnect recovery, and local event logging. Preview and recording require a compatible Transcend ECM100 camera.
+ECMREC is a Windows-focused camera application for live preview, snapshots, continuous segmented MP4 recording, remote control, camera-disconnect recovery, and local event logging. Preview and recording require a compatible Transcend ECM series camera.
 
 <a id="toc"></a>
 ## Contents
@@ -18,7 +18,7 @@ ECMREC is a Windows-focused camera application for live preview, snapshots, cont
 <a id="compatibility"></a>
 ## Compatibility
 
-- Transcend ECM100 (mandatory)
+- [Transcend Embedded Camera Modules](https://us.transcend-info.com/Article/EmbeddedCameraModules)
 
 [Back to Contents](#toc)
 
@@ -76,7 +76,7 @@ Runtime-generated data (not required for a fresh package):
 <a id="product-binding-requirement"></a>
 ## Product Binding Requirement
 
-This software requires an ECM100 device to use preview and recording features. The application enforces this at runtime:
+This software requires an ECM device to use preview and recording features. The application enforces this at runtime:
 
 - Preview start is blocked when no device name containing `ECM100` is detected.
 - Recording start is blocked when no device name containing `ECM100` is detected.
@@ -146,7 +146,7 @@ When SQLite is enabled, the application creates or maintains tables for:
 <a id="positioning"></a>
 ## Product Positioning
 
-ECM100REC is designed for camera-based recording workflows that need:
+ECMREC is designed for camera-based recording workflows that need:
 
 - Stable long-running segmented recording.
 - Lightweight local operation.
